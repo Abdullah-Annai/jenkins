@@ -10,6 +10,6 @@ public class ControllerMain {
 
     @GetMapping("/test")
     public String showData(){
-        return "Hello from jenins";
+        return "Hello from jenkins (changed)";
     }
 }
