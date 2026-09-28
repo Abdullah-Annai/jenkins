@@ -12,4 +12,9 @@ public class ControllerMain {
     public String showData(){
         return "Hello from jenkins (changed)";
     }
+
+    @GetMapping("/")
+    public String home(){
+        return "Hello, Abdullah";
+    }
 }
